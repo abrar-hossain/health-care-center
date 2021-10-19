@@ -8,7 +8,7 @@ import Login from './Components/Login/Login';
 import Register from './Components/Register/Register';
 import Services from './Components/Services/Services';
 import Footer from './Components/Footer/Footer';
-import NotFound from './Components/Register/Register';
+import NotFound from './Components/NotFound/NotFound';
 import Details from './Components/Details/Details';
 import Contact from './Components/Contact/Contact';
 function App() {

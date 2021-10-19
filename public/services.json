@@ -1,0 +1,65 @@
+[
+    {
+        "key": 1,
+        "img": "https://www.leading-medicine-guide.com/image/104284/gynaekologische-onkologie.jpg",
+        "department": "Gynecology",
+        "fees": "500",
+        "description": "Gynaecology or gynecology (see spelling differences) is the medical practice dealing with the health of the female reproductive system. ... The term means the science of women. Its counterpart is andrology, which deals with medical issues specific to the male reproductive system."
+    },
+    {
+        "key": 2,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZipxjjQAGBByvC-sIvXX3JrKQoYnn0GzGUg&usqp=CAU",
+        "department": "Hematology",
+        "fees": "500",
+        "description": "Hematology is the science or study of blood, blood-forming organs and blood diseases. In the medical field, hematology includes the treatment of blood disorders and malignancies, including types of hemophilia, leukemia, lymphoma and sickle-cell anemia."
+    },
+    {
+        "key": 3,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSduhXOex0zkqTa_vyeVaG6pXbsMK2sOTKi4A&usqp=CAU",
+        "department": "Neurology",
+        "fees": "1000",
+        "description": "Neurology is the branch of medicine concerned with the study and treatment of disorders of the nervous system. The nervous system is a complex, sophisticated system that regulates and coordinates body activities. It has two major divisions: Central nervous system: the brain and spinal cord."
+    },
+    {
+        "key": 4,
+        "img": "https://image.shutterstock.com/image-photo/orthopedic-doctor-looking-fake-ankle-260nw-1737056555.jpg",
+        "department": "Orthopedics",
+        "fees": "500",
+        "description": "Orthopedics is a medical specialty that deals with the treatment of bones and muscles. Orthopedic surgery is the branch of medicine concerned with diseases, injuries, and conditions of the musculoskeletal system relating to the body's muscles and skeleton. This includes the joints, ligaments, tendons, and nerves."
+    },
+    {
+        "key": 5,
+        "img": "https://www.researchgate.net/profile/Yohan-Payan/publication/1903060/figure/fig2/AS:667653609897990@1536192433690/Anatomy-in-urology-left-kidney-and-right-prostate-male-anatomical-environments_Q640.jpg",
+        "department": "Urology",
+        "fees": "1000",
+        "description": "Urology is a part of health care that deals with diseases of the male and female urinary tract (kidneys, ureters, bladder and urethra). It also deals with the male organs that are able to make babies (penis, testes, scrotum, prostate, etc.)."
+    },
+    {
+        "key": 6,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKdO1KeWxGuuIvEpnzP75-XC95hoiK995vxw&usqp=CAU",
+        "department": "Gastroenterology",
+        "fees": "500",
+        "description": "Gastroenterology is the study of the normal function and diseases of the esophagus, stomach, small intestine, colon and rectum, pancreas, gallbladder, bile ducts and liver. ... In essence, all normal activity and disease of the digestive organs is part of the study of Gastroenterology."
+    },
+    {
+        "key": 7,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOk0tkTonMHYf3eZHAIbO3-xFH8QmW9IeEyA&usqp=CAU",
+        "department": "Oncology",
+        "fees": "500",
+        "description": "Oncology is the study of cancer. An oncologist is a doctor who treats cancer and provides medical care for a person diagnosed with cancer. An oncologist may also be called a cancer specialist. The field of oncology has 3 major areas based on treatments: medical oncology, radiation oncology, and surgical oncology."
+    },
+    {
+        "key": 8,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRQ7TVWZmXt9CwehiyzURQjxXt0ajBcOtPag&usqp=CAU",
+        "department": "Cardiology",
+        "fees": "500",
+        "description": "Cardiology is the study and treatment of disorders of the heart and the blood vessels. A person with heart disease or cardiovascular disease may be referred to a cardiologist. Cardiology is a branch of internal medicine. ... A cardiologist specializes in diagnosing and treating diseases of the cardiovascular system"
+    },
+    {
+        "key": 9,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRedn8DwSadXJhy8ZScl7QSGdQoEDl-DSeS-A&usqp=CAU",
+        "department": "Ophthalmology",
+        "fees": "500",
+        "description": "Ophthalmology is the study of medical conditions relating to the eye. ... A general practice doctor may refer someone to an ophthalmologist if they show symptoms of cataracts, eye infections, optic nerve problems, or other eye conditions"
+    }
+]

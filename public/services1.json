@@ -1,0 +1,20 @@
+[
+    {
+        "key": 1,
+        "img": "https://www.leading-medicine-guide.com/image/104284/gynaekologische-onkologie.jpg",
+        "department": "Gynecology",
+        "fees": "500"
+    },
+    {
+        "key": 2,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZipxjjQAGBByvC-sIvXX3JrKQoYnn0GzGUg&usqp=CAU",
+        "department": "Hematology",
+        "fees": "500"
+    },
+    {
+        "key": 3,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSduhXOex0zkqTa_vyeVaG6pXbsMK2sOTKi4A&usqp=CAU",
+        "department": "Neurology",
+        "fees": "1000"
+    }
+]

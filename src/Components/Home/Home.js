@@ -20,7 +20,7 @@ const Home = () => {
                     <button className="btn p-2 btn-primary">Search</button>
                 </div>
                 <div className="services">
-                    <div className="row">
+                    <div>
                         {featureCourses?.map((service) => (
                             <Service service={service} key={service.key}></Service>
                         ))}

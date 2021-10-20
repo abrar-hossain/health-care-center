@@ -1,6 +1,6 @@
 #Basic URL
 
-  . Medilink Hospital
+  . Medilink Health Care Center.
 
   url: https://health-care-center-95a52.web.app/
 

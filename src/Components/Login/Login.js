@@ -6,12 +6,14 @@ import './Login.css';
 
 
 const Login = () => {
-    const { signInUsingGoogle } = useAuth();
+    const { user, signInUsingGoogle } = useAuth();
     const location = useLocation();
     console.log(location.state?.from);
     return (
         <div className="login-form">
-            <div>
+
+            {
+                !user.email ? <div>
                 <h2>Login</h2>
                 <form>
                     <input type="email" name="" id="" placeholder="Your Email" />
@@ -26,8 +28,13 @@ const Login = () => {
                     className='btn-regular'
                     onClick={signInUsingGoogle}
                 >Google Sign In</button>
+                </div> : <div>
+                    <h2>Welcome {user.displayName}</h2>
+                    <img src={user.photoURL} alt="" />
+                </div>
+            }
 
-            </div>
+
         </div>
     );
 };

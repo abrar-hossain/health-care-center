@@ -41,6 +41,7 @@ const Navbars = () => {
                                         color: "red",
                                         textDecoration: 'none',
                                     }}
+                                    style={{ textDecoration: 'none' }}
                                 >
                                     About Us
                                 </NavLink>
@@ -50,6 +51,7 @@ const Navbars = () => {
                                         fontWeight: "bold",
                                         color: "red",
                                     }}
+                                    style={{ textDecoration: 'none' }}
                                 >
                                     Services
                                 </NavLink>
@@ -59,12 +61,13 @@ const Navbars = () => {
                                         fontWeight: "bold",
                                         color: "red",
                                     }}
+                                    style={{ textDecoration: 'none' }}
                                 >
                                     Contact
                                 </NavLink>
                                 {user.email && <span style={{ color: 'white' }}>hello {user.displayName}</span>}
                                 {user.email ? <button onClick={logOut}>LogOut</button> :
-                                    <NavLink to="/login">Login</NavLink>}
+                                    <NavLink to="/login" style={{ textDecoration: 'none' }}>Login</NavLink>}
                             </Stack>
                         </Nav>
                     </Appbar.Collapse>

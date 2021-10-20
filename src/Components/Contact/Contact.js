@@ -8,7 +8,7 @@ const Contact = () => {
                 <p>You can connect with us info below</p>
 
                 <h5>Phone: +889965899</h5>
-                <h5>Email: medicurepublic@gmail.com</h5>
+                <h5>Email: medilinkcare@gmail.com</h5>
                 <h5>Address: 41/3 ranking street Dhaka-1100</h5>
             </div>
         </div>

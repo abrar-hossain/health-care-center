@@ -9,7 +9,7 @@ const Header = () => {
         <div>
             <div className='header'>
                 <div>
-                    <h3>Medilink Hospital</h3>
+                    <h3>Medilink <br /> Health Care Center </h3>
                 </div>
                 <div>
                     <nav>

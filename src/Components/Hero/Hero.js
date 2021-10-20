@@ -4,7 +4,7 @@ import { Container, Image } from 'react-bootstrap';
 const Hero = () => {
     return (
 
-        <div className='mt-5 pt-5'>
+        <div className='mt-5'>
             <Container className='my-5 pt-5 pb-5'>
                 <div className='hero'>
                     <div style={{ backgroundColor: '#00203FFF', color: '#ADEFD1FF', textAlign: 'center' }}>

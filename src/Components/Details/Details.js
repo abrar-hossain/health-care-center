@@ -13,21 +13,14 @@ const Details = () => {
             <Row>
                 <Col>
                     <img width="25%" src={newSelected?.img} alt="" />
+                    <h1>{newSelected?.department}</h1>
+                    <h1>Fees: {newSelected?.fees}$</h1>
                 </Col>
                 <Col className="p-3">
-                    <h1>{newSelected?.department}</h1>
-                    <Col className="p-3">
-                        <Row>
-                            <Col>
-                                <h1>Fees: {newSelected?.fees}$</h1>
-                            </Col>
-                            <Col>
-                                <div className="text-center">
-                                    <p>{newSelected?.description}</p>
-                                </div>
-                            </Col>
-                        </Row>
-                    </Col>
+                    <div className="text-center">
+                        <h4>Description</h4>
+                        <p>{newSelected?.description}</p>
+                    </div>
                 </Col>
             </Row>
         </div>

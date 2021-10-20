@@ -7,7 +7,7 @@ import './Home.css'
 
 const Home = () => {
     const [services] = useService();
-    const featureCourses = services.slice(0, 3);
+    const featureServices = services.slice(0, 3);
     return (
         <div>
             <Hero></Hero>
@@ -20,8 +20,8 @@ const Home = () => {
                     <button className="btn p-2 btn-primary">Search</button>
                 </div>
                 <div className="services">
-                    <div>
-                        {featureCourses?.map((service) => (
+                    <div className="m row row-cols-1 row-cols-md-3 row-cols-sm-1 g-4 my-5">
+                        {featureServices?.map((service) => (
                             <Service service={service} key={service.key}></Service>
                         ))}
                     </div>

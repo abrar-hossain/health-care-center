@@ -13,6 +13,7 @@ import Footer from './Components/Footer/Footer';
 import NotFound from './Components/NotFound/NotFound';
 import Details from './Components/Details/Details';
 import Contact from './Components/Contact/Contact';
+import PrivateRoute from './Components/PrivateRoute/PrivateRoute'
 function App() {
   return (
     <div className="App">
@@ -32,9 +33,9 @@ function App() {
             <Route exact path='/services'>
               <Services></Services>
             </Route>
-            <Route path="/services/:id">
+            <PrivateRoute path="/services/:id">
               <Details></Details>
-            </Route>
+            </PrivateRoute>
             <Route path="/contact">
               <Contact></Contact>
             </Route>
